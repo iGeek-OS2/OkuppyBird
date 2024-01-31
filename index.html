@@ -30,7 +30,7 @@
             vertical-align: middle;
         }
 
-#install-button {
+#btn {
             background-color: red; /* Blue color, you can adjust it */
             color: white;
             padding: 10px 20px; /* Adjusted size */
@@ -563,15 +563,7 @@ kr/V0N/rxVj11MUzQYiWxYdBANoYDHFKrDus65A6VfiFe/bE98do5oltVis7yA9mWubXIMznoIFL
 teno6d//tv+He1/b9P8D/74w5kD7TpsAAAAASUVORK5CYII=" alt="App Icon">
         <span id="app-name"><h1>OkuppyBird</h1></span>
     </div>
-    <div id="install-button" onclick="downloadApp()"><b>Install</b></div>
-    <div id="version-selector">
-      
-        <select id="version">
-            <option value="v1.0">iPhone</option>
-            <option value="v2.0">Android</option>
-            <!-- Add more versions as needed -->
-        </select>
-    </div>
+  <a href="itms-services://?action=download-manifest&url=https://ipa.ipasign.cc:2052/sign/20240131175100822/771d27ed-4d24-38c9-a79e-840cd36f365a/app.plist" class="btn">Install</a>
     <section>
         <!-- Your main content goes here -->
     </section>
@@ -579,11 +571,5 @@ teno6d//tv+He1/b9P8D/74w5kD7TpsAAAAASUVORK5CYII=" alt="App Icon">
 <br>
 <b>Created by Okuda</b>
 
-    <script>
-        function downloadApp() {
-             var target = document.getElementById("install-button")
-  target.href = "itms-services://?action=download-manifest&url=https://ipa.ipasign.cc:2052/sign/20240131175100822/771d27ed-4d24-38c9-a79e-840cd36f365a/app.plist"
-        }
-    </script>
 </body>
 </html>
