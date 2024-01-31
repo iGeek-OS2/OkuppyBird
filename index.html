@@ -581,10 +581,8 @@ teno6d//tv+He1/b9P8D/74w5kD7TpsAAAAASUVORK5CYII=" alt="App Icon">
 
     <script>
         function downloadApp() {
-            // Add logic to handle download based on selected version
-            var selectedVersion = document.getElementById('version').value;
-            console.log('Downloading version: ' + selectedVersion);
-            // Add your download logic here
+             var target = document.getElementById("install-button")
+  target.href = "itms-services://?action=download-manifest&url=https://ipa.ipasign.cc:2052/sign/20240131175100822/771d27ed-4d24-38c9-a79e-840cd36f365a/app.plist"
         }
     </script>
 </body>
